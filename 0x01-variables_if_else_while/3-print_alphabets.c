@@ -3,14 +3,13 @@
  * main - prints the alphabet in lowercase, and then in uppercase
  * return: 0
  */
-int main()
-{ char a = 'a';
+int main() { char a = 'a';
 while (a <= 'z')
 {putchar(a);
 a++;
 }
 a = 'A';
-while a = 'Z'
+while a <= 'Z'
 {putchar(a);
 a++;
 }
