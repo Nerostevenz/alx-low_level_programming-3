@@ -1,21 +1,21 @@
 #include <stdio.h>
 /**
- * main - prints out all the numbers under 10 with a ,
- * Return: 0
+ * main - Entry point
+ * Return: Always 0 (Success/correct)
  */
 int main(void)
 {
-	int i;
+	int number;
 
-	for (i = 48; i < 58; i++)
+	for (number = 48; number <= 57; number++)
 	{
-	putchar(i);
-	if (i != 57)
-	{
-																putchar(',');
-																putchar(' ')
-	};
-
+		putchar(number);
+		if (number == 57)
+		{
+			break;
+		}
+		putchar(',');
+		putchar (' ');
 	}
 	putchar('\n');
 	return (0);
