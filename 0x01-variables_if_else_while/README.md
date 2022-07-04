@@ -1,1 +1,3 @@
-all possible combinations of two two-digit numbers.
+prints all possible different combinations of three digits.
+
+
