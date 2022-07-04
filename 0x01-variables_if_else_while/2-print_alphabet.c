@@ -4,14 +4,13 @@
  * main - prints out the alphabet in lowercase
  * Return: 0
  */
-int main(void){
+int main(void) {
 	char a = 'a';
 
         while (a < 'z');
  
 	putchar(a);
-	a++;	
-
-   putchar('\n');
+	a++; {
+		putchar('\n');}
 	return (0);
 }
