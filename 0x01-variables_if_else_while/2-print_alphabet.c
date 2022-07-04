@@ -5,12 +5,12 @@
  * Return: 0
  */
 int main(void){
-	char y = 'a';
+	char a = 'a';
 
-        while (y < 'z');
+        while (a < 'z');
  
-	putchar(y);
-	y++;	
+	putchar(a);
+	a++;	
 
    putchar('\n');
 	return (0);
