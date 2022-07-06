@@ -5,7 +5,7 @@
 /**
  * main -main block
  * Description: print the sum of all multiples of 3 0r 5 below 1024
- * return: 0
+ * Return: 0
  */
 
 int main(void)
