@@ -1,9 +1,8 @@
 #include "main.h"
 /**
- *_puts - prints a string
- *@str: A pointer to an int that will be changed
- *
- *Return: void which means our answer is correct
+ * _puts - prints to stdout
+ * @str: char type string
+ * Use _putchar
  */
 
 void _puts(char *str)
