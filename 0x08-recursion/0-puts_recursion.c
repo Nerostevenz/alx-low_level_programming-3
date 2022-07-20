@@ -1,7 +1,7 @@
 #include "main.h"
 
 /*
- * puts-recursion - prints string followed by a new line.
+ * _puts_recursion - prints string followed by a new line.
  * @s: pointer block of memory to fill
  * Returns: void
  */
